@@ -95,43 +95,47 @@ select rtrim('otto                         ')
 
 --Textverketten
 select 'A' + 'B'
-
 select 'A' + 100 --Error
 --einfachste Lösung
 select 'A' + '100' -- ;-).. geht aber nicht bei Tabellenabfragen
-
-
-
 --Konvertieren
-
 select convert(varchar(50), 100)
 select 'A' + convert (varchar(50) , 100)
-
-
 select UPPER('otto')
 select lower('OTTO')
-
 select UPPER ('o') + 'tto' -- 'Otto'
-
-
 --Längen feststellen
 select len('otto'), datalength('otto')
-
 select len('otto        '), datalength('otto         '),len('         otto        ')
-
 --Len  macht automat einen rtrim, aber keinen ltrim
-
-
 select len(customerid), datalength(customerid)
 from customers
-
-
 --Left right
-
 select left('abcdefg',4), right('abcdefg',4)
-
 -- ab cde  fg
+--Substing.. ab best Position (beginnt bei 1) für eine bestimmte  etwas ausgeben
 select substring ('abcdefg',3,3) --cde
+--txt ersetzen--die zu ersetzenende zeichen müssen nicht gleich lang sein
+select stuff('abcdefg',3,2,'XY')
+select stuff('abcdefg',3,2,'ABCDEFGH')
+select reverse('ein Neger mit Gazelle zagt im regen nie')
+
+
+
+
+
+--bei einer beliebigen TelNr sollen die letzten 3 Zeichen ausgeixt werden
+
+-- 08677-988971---> 08677-988XXX
+
+
+
+select stuff(' 08677-988971',len(' 08677-988971')-2,3,'xxx')
+
+select reverse(stuff( reverse(' 08677-988971'),1,3,'XXX'))
+
+
+
 
 
 

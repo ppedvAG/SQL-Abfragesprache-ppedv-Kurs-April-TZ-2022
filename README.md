@@ -11,4 +11,11 @@
 ### Systemfunktionen
 [ ] Datentypen
 [ ] Datums und Textfunktionen
+
+### Einfache SELECTs
+[ ]  SELECT
+[ ] order by 
+
+### Exkursion: DB Design 
+[ ] Normalisierung -- ref. Integrität
  
