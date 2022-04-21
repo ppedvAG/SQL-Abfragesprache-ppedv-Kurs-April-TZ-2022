@@ -18,4 +18,9 @@
 
 ### Exkursion: DB Design 
 [ ] Normalisierung -- ref. Integrität
+
+## Tag 2
+[ ]  NULL
+[ ]  Where mit Wildcards
+[ ]  INNER LEFT RIGHT CROSS FULL JOIN
  

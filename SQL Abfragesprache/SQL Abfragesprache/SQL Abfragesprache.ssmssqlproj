@@ -31,11 +31,29 @@
           <AssociatedConnUserName />
           <FullPath>02_Systemfunktionen.sql</FullPath>
         </FileNode>
+        <FileNode Name="03_Einfacher SELECT.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>03_Einfacher SELECT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_Order by.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>04_Order by.sql</FullPath>
+        </FileNode>
         <FileNode Name="instnwnd.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>instnwnd.sql</FullPath>
+        </FileNode>
+        <FileNode Name="X_DBDesign.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>X_DBDesign.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
