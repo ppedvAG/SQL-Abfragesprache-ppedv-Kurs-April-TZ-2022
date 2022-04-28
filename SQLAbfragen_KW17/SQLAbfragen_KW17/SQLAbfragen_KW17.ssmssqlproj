@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQLAbfragen_KW17">
+  <Items>
+    <LogicalFolder Name="Verbindungen" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="TRAINER10-NS2:DOM-PPA01\ns2">
+          <Created>2022-04-25T09:06:28.3512509+02:00</Created>
+          <Type>SQL</Type>
+          <Server>TRAINER10-NS2</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB>Northwind</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01_JOIN_Recap.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01_JOIN_Recap.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_Aggregates.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02_Aggregates.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03_UNION.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03_UNION.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_CASE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_CASE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05_VIEW.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05_VIEW.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06_RecapT3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06_RecapT3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07_DDL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07_DDL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08_Subqueries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08_Subqueries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09_Variablen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09_Variablen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10_While.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10_While.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11_Procedures.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11_Procedures.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12_TempTables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12_TempTables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13_Bonus.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13_Bonus.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
